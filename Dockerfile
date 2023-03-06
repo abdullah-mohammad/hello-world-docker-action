@@ -6,3 +6,4 @@ WORKDIR /app
 RUN chmod +x ./entrypoint.sh
 RUN echo "Hello"
 ENTRYPOINT ["./entrypoint.sh"]
+
